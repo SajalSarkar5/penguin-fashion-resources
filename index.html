@@ -5,10 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    
+    <header class="bg-[#FFFBF0]">
+        <div class="header-container max-w-7xl mx-auto">
+            <nav class="flex justify-between items-center py-5">
+                <div class="w-64">
+                    <img src="icons/logo.png" alt="">
+                </div>
+                <div class="flex justify-end items-center list-none font-roboto text-base">
+                    <li class="mr-5"><a href="">Home</a></li>
+                    <li class="mr-5"><a href="">Product</a></li>
+                    <li class="mr-5"><a href="">About Us</a></li>
+                    <li class="mr-5"><a href="">Contact Us</a></li>
+                </div>
+            </nav>
+            <div class="flex justify-between items-center">
+                <div>
+                    <h1 class="font-bebas text-[80px] text-[#FABE4C]">Be the Penguins <br>
+                        <span class="text-[#363958]">of Winter</span>
+                    </h1>
+                    <p class="text-base text-[#3E3E3E] mb-5">Lorem Ipsum is simply dummy text of the printing <br>
+                        and typesetting industry.</p>
+                    <button class="bg-gradient-to-r from-[#A4BC46] to-[#A4BC46] py-5 px-8 font-roboto text-base text-[#FFF] rounded-xl "><i class="fa-solid fa-cart-shopping"></i>&nbsp; BUY NOW</button>
+                </div>
+                <div class="pr-16">
+                    <img src="images/model.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 
 </html>
